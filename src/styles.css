@@ -1,0 +1,141 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.contianer {
+  width: 100%;
+  height: 100%;
+}
+.leftDiv {
+  border-radius: 25px;
+  display: inline-block;
+  background-color: lightblue;
+  width: 50%;
+  height: 100%;
+}
+.rightDiv {
+  float: right;
+  width: 50%;
+  overflow: hidden;
+}
+.header {
+  margin-left: 25px;
+  font-size: 30px;
+  font-weight: 500;
+  background-image: linear-gradient(to left, #090934, #4d4d75);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+.searchInputs {
+  margin-left: 10px;
+  margin-top: 10px;
+  display: flex;
+}
+
+.search input {
+  background-color: white;
+  border: 0;
+  border-radius: 2px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  font-size: 18px;
+  padding: 15px;
+  height: 25px;
+  width: 65%;
+  border-radius: 25px;
+  border: 2px solid white;
+}
+
+.dataResult {
+  border-radius: 25px;
+  margin-left: 10px;
+  margin-top: 5px;
+  margin-bottom: 25px;
+  width: 90%;
+  max-height: 350px;
+  height: auto;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  overflow: hidden;
+  overflow-y: auto;
+  overflow-wrap: break-word;
+}
+
+.dataResult::-webkit-scrollbar {
+  display: none;
+}
+
+.dataResult .dataItem {
+  width: 100%;
+  height: 50px;
+  margin-right: 10px;
+  display: flex;
+  align-items: left;
+  color: black;
+  overflow: hidden;
+  overflow-wrap: break-word;
+}
+ul:hover {
+  background-color: lightgrey;
+}
+img {
+  padding: 30px;
+}
+.pagination {
+  display: inline-block;
+  margin-left: 15px;
+}
+.pagination a {
+  border: 1px solid #ddd;
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+.pagination a.active {
+  background-color: #4caf50;
+  color: white;
+}
+.pagination a:hover:not(.active) {
+  background-color: #ddd;
+}
+.subHead {
+  font-family: "Poppins", sans-serif;
+  margin-left: 20px;
+  font-size: 25px;
+  font-weight: 500;
+}
+.comment {
+  font-family: "Poppins", sans-serif;
+  margin-left: 20px;
+  font-size: 12px;
+  border: 1px solid #fff;
+}
+.styleLine {
+  background-image: linear-gradient(to left, #090934, #4d4d75);
+  color: transparent;
+  background-clip: text;
+  font-family: "Poppins", sans-serif;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  font-size: 5px;
+}
+.loader {
+  border: 10px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 10px solid #3498db;
+  margin-left: 47%;
+  width: 40px;
+  height: 40px;
+  -webkit-animation: spin 2s linear infinite; /* Safari */
+  animation: spin 2s linear infinite;
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
