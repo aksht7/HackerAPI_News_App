@@ -4,7 +4,7 @@ A React web application which allows users to search the news fetched from Hacke
 # Home Page
 ![image](https://user-images.githubusercontent.com/37541022/169042289-a59d8c07-940c-45d4-80f1-aace62e99945.png)
 
-# Loading 
+# Loading API Data
 ![image](https://user-images.githubusercontent.com/37541022/169041606-db168f4e-bac3-4c98-8dbd-23188701086a.png)
 
 # News Details Page
