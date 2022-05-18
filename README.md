@@ -2,7 +2,7 @@
 A React App which allows users to search the News that is 
 
 # Home Page
-![image](https://user-images.githubusercontent.com/37541022/169041248-425a5f26-b1e4-4887-aad9-8c9f59a317df.png)
+![image](https://user-images.githubusercontent.com/37541022/169042289-a59d8c07-940c-45d4-80f1-aace62e99945.png)
 
 # Loading 
 ![image](https://user-images.githubusercontent.com/37541022/169041606-db168f4e-bac3-4c98-8dbd-23188701086a.png)
