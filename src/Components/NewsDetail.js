@@ -43,9 +43,11 @@ export default function NewsDetail() {
       <p className="subHead">Points : {data.points}</p>
       <p className="subHead">List of all comments</p>
       {currentComments.map((data) => (
-        <p key={data.id} className="comment">
-          <li key={data.id}>{data.text}</li>
-        </p>
+        <div
+          className="comment"
+          key={data.id}
+          dangerouslySetInnerHTML={{ __html: data.text }}
+        ></div>
       ))}
       <Pagination
         postPerPage={postPerPage}
